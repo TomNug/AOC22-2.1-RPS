@@ -45,7 +45,7 @@ class Program {
       string[] game = gameLine.Split(" ");
       totalScore += calculateScore(rps[game[0]], rps[game[1]]);  
       Console.WriteLine("{0} // {1}", rps[game[0]], rps[game[1]]);
-    Console.WriteLine(totalScore);  
+    Console.WriteLine("Final answer: {0}", totalScore);  
       
       
     }
